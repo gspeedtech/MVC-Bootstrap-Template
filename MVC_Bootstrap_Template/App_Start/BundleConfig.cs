@@ -21,10 +21,13 @@ namespace MVC_Bootstrap_Template
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
+                      "~/Scripts/moment.js",
+                      "~/Scripts/daterangepicker.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/daterangepicker.css",
                       "~/Content/font-awesome.css",
                       "~/Content/site.css"));
         }
